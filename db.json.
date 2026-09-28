@@ -1,0 +1,12 @@
+{
+  "students": [
+    { "id": 1, "name": "Катерина", "email": "kateryna@example.com", "role": "student" },
+    { "id": 2, "name": "Володимир", "email": "volodymyr@example.com", "role": "student" },
+    { "id": 3, "name": "Дарія", "email": "daria@example.com", "role": "admin" }
+  ],
+  "courses": [
+    { "id": 1, "title": "C# Windows Forms Basics", "studentId": 1, "tags": ["csharp", "dotnet", "gui"] },
+    { "id": 2, "title": "REST API Fundamentals", "studentId": 1, "tags": ["rest", "api", "json"] },
+    { "id": 3, "title": "UML Modeling & Systems", "studentId": 2, "tags": ["uml", "architecture"] }
+  ]
+}
